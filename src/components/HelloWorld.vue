@@ -3,6 +3,7 @@
     <input type="text" v-model="inputValue" placeholder="校验手机号">
     <sob-button type="info" v-bury="'BURY_TEST_DONE'" @click.native="isPhone" mini>submit</sob-button>
     <div>手机号验证结果：{{result}}</div>
+    <!-- 图片懒加载 -->
     <div v-for="n in 10" :key="n">
       <oss-image src="http://img.souche.com/dccde1d428a14343c9e007970b3e37cb.jpg" :action="action">
       </oss-image>
