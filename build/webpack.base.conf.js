@@ -36,6 +36,8 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'sob-ui': '@souche-ui/sob-ui',
+      'utils': '@souche-f2e/souche-util'
     }
   },
   module: {
